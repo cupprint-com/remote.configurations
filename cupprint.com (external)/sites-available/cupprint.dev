@@ -1,0 +1,44 @@
+server {
+
+    set $name "dev.cupprint.com";
+    set $fastcgi_sock "cupprint_develop";
+
+    listen 80.237.214.81:443 ssl;
+    server_name dev.cupprint.com;
+    root /var/www/$name;
+    
+    location / {	
+	try_files $uri $uri/ /index.php?$args;
+
+    	# Eingabeaufforderung für Benutzerdaten
+    	auth_basic "CupPrint Develop";
+    	# nginx sagen wo die validen Benutzerdaten hinterlegt sind
+    	auth_basic_user_file /var/www/htpasswd;
+    } 	
+
+    include /etc/nginx/global/contao.conf;
+}
+
+server {    
+    listen 80.237.214.81:443 ssl;
+    server_name ~^([a-z0-9]+)\.dev\.cupprint\.com;
+
+    set $name $1;
+    set $fastcgi_sock "cupprint_develop";
+
+    root /var/www/develop/$name;
+
+    ssl_certificate /etc/nginx/ssl/cupprint_chain.pem;
+
+    location / {
+        try_files $uri $uri/ /index.php?$args;
+
+        # Eingabeaufforderung für Benutzerdaten
+        auth_basic "CupPrint Develop";
+        # nginx sagen wo die validen Benutzerdaten hinterlegt sind
+        auth_basic_user_file /var/www/htpasswd;
+    }
+
+    include /etc/nginx/global/contao.conf;
+}
+
