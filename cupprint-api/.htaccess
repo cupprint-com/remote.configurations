@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase  /var/www/api/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule api/v1/(.*)$ api/v1/api.php?request=$1 [QSA,NC,L]
+RewriteRule ^(.*)$ index.php?request=$1 [QSA,NC,L]
+</IfModule>
+
+
+
+
+#<FilesMatch "\.(jpg|jpeg|png|gif|swf|manifest)$">
+#	<IfModule mod_headers.c>
+    	Header set Access-Control-Allow-Origin "*"
+#	</IfModule>
+#</FilesMatch>
+
