@@ -1,0 +1,837 @@
+2019-09-15 18:50:47,405:DEBUG:certbot.main:certbot version: 0.31.0
+2019-09-15 18:50:47,406:DEBUG:certbot.main:Arguments: ['-q']
+2019-09-15 18:50:47,406:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#apache,PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2019-09-15 18:50:47,412:DEBUG:certbot.log:Root logging level set at 30
+2019-09-15 18:50:47,413:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2019-09-15 18:50:47,418:DEBUG:certbot.plugins.selection:Requested authenticator <certbot.cli._Default object at 0x7f6760acb6d8> and installer <certbot.cli._Default object at 0x7f6760acb6d8>
+2019-09-15 18:50:47,461:INFO:certbot.renewal:Cert not yet due for renewal
+2019-09-15 18:50:47,461:DEBUG:certbot.plugins.selection:Requested authenticator apache and installer apache
+2019-09-15 18:50:47,462:DEBUG:certbot.plugins.selection:Selecting plugin: * apache
+Description: Apache Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: apache = certbot_apache.entrypoint:ENTRYPOINT
+Initialized: <certbot_apache.override_debian.DebianConfigurator object at 0x7f6760a68da0>
+2019-09-15 18:50:47,462:DEBUG:certbot.plugins.storage:Plugin storage file /etc/letsencrypt/.pluginstorage.json was empty, no values loaded
+2019-09-15 18:50:47,463:DEBUG:certbot.renewal:no renewal failures
+2019-09-16 01:58:55,191:DEBUG:certbot.main:certbot version: 0.31.0
+2019-09-16 01:58:55,191:DEBUG:certbot.main:Arguments: ['-q']
+2019-09-16 01:58:55,192:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#apache,PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2019-09-16 01:58:55,197:DEBUG:certbot.log:Root logging level set at 30
+2019-09-16 01:58:55,198:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2019-09-16 01:58:55,203:DEBUG:certbot.plugins.selection:Requested authenticator <certbot.cli._Default object at 0x7f9d7c1d06d8> and installer <certbot.cli._Default object at 0x7f9d7c1d06d8>
+2019-09-16 01:58:55,210:INFO:certbot.renewal:Cert not yet due for renewal
+2019-09-16 01:58:55,211:DEBUG:certbot.plugins.selection:Requested authenticator apache and installer apache
+2019-09-16 01:58:55,211:DEBUG:certbot.plugins.selection:Selecting plugin: * apache
+Description: Apache Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: apache = certbot_apache.entrypoint:ENTRYPOINT
+Initialized: <certbot_apache.override_debian.DebianConfigurator object at 0x7f9d7c16dda0>
+2019-09-16 01:58:55,212:DEBUG:certbot.plugins.storage:Plugin storage file /etc/letsencrypt/.pluginstorage.json was empty, no values loaded
+2019-09-16 01:58:55,212:DEBUG:certbot.renewal:no renewal failures
+2019-09-16 11:00:59,173:DEBUG:certbot.main:certbot version: 0.31.0
+2019-09-16 11:00:59,174:DEBUG:certbot.main:Arguments: ['-apache']
+2019-09-16 11:00:59,174:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#apache,PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2019-09-16 11:00:59,180:DEBUG:certbot.log:Root logging level set at 20
+2019-09-16 11:00:59,180:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2019-09-16 11:00:59,181:DEBUG:certbot.plugins.selection:Requested authenticator pache and installer None
+2019-09-16 11:00:59,252:DEBUG:certbot_apache.configurator:Apache version is 2.4.29
+2019-09-16 11:00:59,603:DEBUG:certbot.plugins.selection:Single candidate plugin: * apache
+Description: Apache Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: apache = certbot_apache.entrypoint:ENTRYPOINT
+Initialized: <certbot_apache.override_debian.DebianConfigurator object at 0x7f19e07fdf60>
+Prep: True
+2019-09-16 11:00:59,605:DEBUG:certbot.plugins.selection:No candidate plugin
+2019-09-16 11:00:59,605:DEBUG:certbot.plugins.selection:Selected authenticator None and installer <certbot_apache.override_debian.DebianConfigurator object at 0x7f19e07fdf60>
+2019-09-16 11:01:28,007:DEBUG:certbot.main:certbot version: 0.31.0
+2019-09-16 11:01:28,007:DEBUG:certbot.main:Arguments: ['--apache']
+2019-09-16 11:01:28,008:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#apache,PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2019-09-16 11:01:28,014:DEBUG:certbot.log:Root logging level set at 20
+2019-09-16 11:01:28,014:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2019-09-16 11:01:28,015:DEBUG:certbot.plugins.selection:Requested authenticator apache and installer apache
+2019-09-16 11:01:28,085:DEBUG:certbot_apache.configurator:Apache version is 2.4.29
+2019-09-16 11:01:28,502:DEBUG:certbot.plugins.selection:Single candidate plugin: * apache
+Description: Apache Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: apache = certbot_apache.entrypoint:ENTRYPOINT
+Initialized: <certbot_apache.override_debian.DebianConfigurator object at 0x7f0398efff60>
+Prep: True
+2019-09-16 11:01:28,503:DEBUG:certbot.plugins.selection:Selected authenticator <certbot_apache.override_debian.DebianConfigurator object at 0x7f0398efff60> and installer <certbot_apache.override_debian.DebianConfigurator object at 0x7f0398efff60>
+2019-09-16 11:01:28,503:INFO:certbot.plugins.selection:Plugins selected: Authenticator apache, Installer apache
+2019-09-16 11:01:28,508:DEBUG:certbot.main:Picked account: <Account(RegistrationResource(body=Registration(key=None, contact=(), agreement=None, status=None, terms_of_service_agreed=None, only_return_existing=None, external_account_binding=None), uri='https://acme-v02.api.letsencrypt.org/acme/acct/65885123', new_authzr_uri=None, terms_of_service=None), 4d9147130b614d3b3b3f3e21dfb1e65c, Meta(creation_dt=datetime.datetime(2019, 9, 13, 9, 27, 13, tzinfo=<UTC>), creation_host='cupprint.ru'))>
+2019-09-16 11:01:28,509:DEBUG:acme.client:Sending GET request to https://acme-v02.api.letsencrypt.org/directory.
+2019-09-16 11:01:28,511:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): acme-v02.api.letsencrypt.org
+2019-09-16 11:01:28,852:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "GET /directory HTTP/1.1" 200 658
+2019-09-16 11:01:28,853:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Content-Type: application/json
+Content-Length: 658
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+Expires: Mon, 16 Sep 2019 11:01:28 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 16 Sep 2019 11:01:28 GMT
+Connection: keep-alive
+
+{
+  "ehU9bCegjdo": "https://community.letsencrypt.org/t/adding-random-entries-to-the-directory/33417",
+  "keyChange": "https://acme-v02.api.letsencrypt.org/acme/key-change",
+  "meta": {
+    "caaIdentities": [
+      "letsencrypt.org"
+    ],
+    "termsOfService": "https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf",
+    "website": "https://letsencrypt.org"
+  },
+  "newAccount": "https://acme-v02.api.letsencrypt.org/acme/new-acct",
+  "newNonce": "https://acme-v02.api.letsencrypt.org/acme/new-nonce",
+  "newOrder": "https://acme-v02.api.letsencrypt.org/acme/new-order",
+  "revokeCert": "https://acme-v02.api.letsencrypt.org/acme/revoke-cert"
+}
+2019-09-16 11:01:47,005:INFO:certbot.main:Renewing an existing certificate
+2019-09-16 11:01:47,095:DEBUG:certbot.crypto_util:Generating key (2048 bits): /etc/letsencrypt/keys/0001_key-certbot.pem
+2019-09-16 11:01:47,097:DEBUG:certbot.crypto_util:Creating CSR: /etc/letsencrypt/csr/0001_csr-certbot.pem
+2019-09-16 11:01:47,097:DEBUG:acme.client:Requesting fresh nonce
+2019-09-16 11:01:47,097:DEBUG:acme.client:Sending HEAD request to https://acme-v02.api.letsencrypt.org/acme/new-nonce.
+2019-09-16 11:01:47,349:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "HEAD /acme/new-nonce HTTP/1.1" 200 0
+2019-09-16 11:01:47,349:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 000162ZZhtd8WpZ0v7UW62HD8FM2G4EyTvBu1myXYgnEhnA
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+Content-Length: 0
+Expires: Mon, 16 Sep 2019 11:01:47 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 16 Sep 2019 11:01:47 GMT
+Connection: keep-alive
+
+
+2019-09-16 11:01:47,349:DEBUG:acme.client:Storing nonce: 000162ZZhtd8WpZ0v7UW62HD8FM2G4EyTvBu1myXYgnEhnA
+2019-09-16 11:01:47,350:DEBUG:acme.client:JWS payload:
+b'{\n  "identifiers": [\n    {\n      "type": "dns",\n      "value": "cupprint.ru"\n    },\n    {\n      "type": "dns",\n      "value": "staging.cupprint.ru"\n    }\n  ]\n}'
+2019-09-16 11:01:47,352:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/new-order:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvNjU4ODUxMjMiLCAibm9uY2UiOiAiMDAwMTYyWlpodGQ4V3BaMHY3VVc2MkhEOEZNMkc0RXlUdkJ1MW15WFlnbkVobkEiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL25ldy1vcmRlciJ9",
+  "signature": "TZ_p07UXN28zIXJP5ZDJY2Wol7-h1TtGYqtyBi-olfyiE1qGBgzTa-Y1_DsFsLZI9TbwxHXDv0M75y7BNQQZqc5C_HpUO7e-FhBLtp-XdF0lHMwrT6ptnyfymYn-a1_1o3prl2qLcKWimYvzEfI8aj0W37HKSGDGnEKBlu_0IsEcyhf95bONXfD08_VaZKNtO_kVeI88-u_pH9cOl4LlrZdX2sSDBNB2w2fIi-v-eYaVW6HkF0caG8-9i61t4miUJqu58MQCMi6j8XS90d29NYctSJUobZm_rjH7lWL_1P6LQtCB-wMqzHc8kUL9nAk8pZhp2oorOXVvnQTYKqR_rA",
+  "payload": "ewogICJpZGVudGlmaWVycyI6IFsKICAgIHsKICAgICAgInR5cGUiOiAiZG5zIiwKICAgICAgInZhbHVlIjogImN1cHByaW50LnJ1IgogICAgfSwKICAgIHsKICAgICAgInR5cGUiOiAiZG5zIiwKICAgICAgInZhbHVlIjogInN0YWdpbmcuY3VwcHJpbnQucnUiCiAgICB9CiAgXQp9"
+}
+2019-09-16 11:01:47,653:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/new-order HTTP/1.1" 201 479
+2019-09-16 11:01:47,654:DEBUG:acme.client:Received response:
+HTTP 201
+Server: nginx
+Content-Type: application/json
+Content-Length: 479
+Boulder-Requester: 65885123
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Location: https://acme-v02.api.letsencrypt.org/acme/order/65885123/1098823477
+Replay-Nonce: 0001pZJmCc3oz9gKshQhYp-l80rTJahNBzL9MSi9XpkLzcQ
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+Expires: Mon, 16 Sep 2019 11:01:47 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 16 Sep 2019 11:01:47 GMT
+Connection: keep-alive
+
+{
+  "status": "pending",
+  "expires": "2019-09-23T11:01:47.552791526Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "cupprint.ru"
+    },
+    {
+      "type": "dns",
+      "value": "staging.cupprint.ru"
+    }
+  ],
+  "authorizations": [
+    "https://acme-v02.api.letsencrypt.org/acme/authz-v3/321288466",
+    "https://acme-v02.api.letsencrypt.org/acme/authz-v3/366406830"
+  ],
+  "finalize": "https://acme-v02.api.letsencrypt.org/acme/finalize/65885123/1098823477"
+}
+2019-09-16 11:01:47,654:DEBUG:acme.client:Storing nonce: 0001pZJmCc3oz9gKshQhYp-l80rTJahNBzL9MSi9XpkLzcQ
+2019-09-16 11:01:47,654:DEBUG:acme.client:JWS payload:
+b''
+2019-09-16 11:01:47,655:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/authz-v3/321288466:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvNjU4ODUxMjMiLCAibm9uY2UiOiAiMDAwMXBaSm1DYzNvejlnS3NoUWhZcC1sODByVEphaE5Cekw5TVNpOVhwa0x6Y1EiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2F1dGh6LXYzLzMyMTI4ODQ2NiJ9",
+  "signature": "P4bHRM7sPJMT5b-g1dZltk6Sfzr4aYuPTBNytgCtMz3QDW1wyLwCI2nKIGMKRBP-D-nF_u6xYa54qvoF__Rr6ZfjeSkjZAeLgzYO-BzkA2zlkUdZmC4Nt6wsJCkYoQtQRV7F-k9nRCmxbqJYMABj-sNFLvpV1psu9tJpSWWBf1Ys1c9r6cne2el7jM9hz4vNPMY_DRLss_45rPtxOgr9MrbPjxKReAtvsqa53MmlUFoLT_trXbN4aqO_0IDG9l5YpoZsaj9MSybkK2__ryDVWe7rt_b4cpNvVYdfeTn5gO79FbZcQjhJq4qBfsqX3WjETh4cXrzzqL7QDkWvwrZgfg",
+  "payload": ""
+}
+2019-09-16 11:01:47,896:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/321288466 HTTP/1.1" 200 1151
+2019-09-16 11:01:47,896:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Content-Type: application/json
+Content-Length: 1151
+Boulder-Requester: 65885123
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0002L-UOl00ndk7VOI_EmCfW-vXD1-SGSnK-0fp_zWyJNHM
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+Expires: Mon, 16 Sep 2019 11:01:47 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 16 Sep 2019 11:01:47 GMT
+Connection: keep-alive
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "staging.cupprint.ru"
+  },
+  "status": "valid",
+  "expires": "2019-10-20T09:27:17Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "valid",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/321288466/diGCFg",
+      "token": "xgzTyoiiXEHkytYRPc0P9yN1tn5nZJiyqmi1sXMOZXU",
+      "validationRecord": [
+        {
+          "url": "http://staging.cupprint.ru/.well-known/acme-challenge/xgzTyoiiXEHkytYRPc0P9yN1tn5nZJiyqmi1sXMOZXU",
+          "hostname": "staging.cupprint.ru",
+          "port": "80",
+          "addressesResolved": [
+            "212.147.209.62"
+          ],
+          "addressUsed": "212.147.209.62"
+        }
+      ]
+    },
+    {
+      "type": "dns-01",
+      "status": "pending",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/321288466/1Uofbw",
+      "token": "xgzTyoiiXEHkytYRPc0P9yN1tn5nZJiyqmi1sXMOZXU"
+    },
+    {
+      "type": "tls-alpn-01",
+      "status": "pending",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/321288466/3_7qdA",
+      "token": "xgzTyoiiXEHkytYRPc0P9yN1tn5nZJiyqmi1sXMOZXU"
+    }
+  ]
+}
+2019-09-16 11:01:47,896:DEBUG:acme.client:Storing nonce: 0002L-UOl00ndk7VOI_EmCfW-vXD1-SGSnK-0fp_zWyJNHM
+2019-09-16 11:01:47,897:DEBUG:acme.client:JWS payload:
+b''
+2019-09-16 11:01:47,898:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/authz-v3/366406830:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvNjU4ODUxMjMiLCAibm9uY2UiOiAiMDAwMkwtVU9sMDBuZGs3Vk9JX0VtQ2ZXLXZYRDEtU0dTbkstMGZwX3pXeUpOSE0iLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2F1dGh6LXYzLzM2NjQwNjgzMCJ9",
+  "signature": "FA-VgZhqWQAzLpZLOy_QTALWykoRNYWkT2i_i3bkNEh6IW5y2vJ-aOQ6BRYYhUG2wM5e6dz0WLgqp4byFh83FCwfJ2nU0qG3xZHQoDL7sOc0QTIYuDz6mOUb82J8J_AKfQRG-bBseY7Eu_PPyGy_rS1Zw6wbPfmzz5SzSmy8XBB06ZAuh6LgCrN2xMHUUEFffY9XSp4LI8u5gFb7Gwtuk3sow1qnum3I0hLwC4VTlI30LULSxG_QpK_hkD7EX3cjTfp8bNGsfrLNRFHCGPulhCVmDSM-4XuaEI1h2otqq3HYK2dMujIa0C6VRHGAvYbFN4aBSd7CxlP3SN2R42J_PQ",
+  "payload": ""
+}
+2019-09-16 11:01:48,124:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/366406830 HTTP/1.1" 200 786
+2019-09-16 11:01:48,124:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Content-Type: application/json
+Content-Length: 786
+Boulder-Requester: 65885123
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0002PBRW1XlmtMpNqmx1mdgFK4vKMw0t_vQjYS_f13DpTmU
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+Expires: Mon, 16 Sep 2019 11:01:48 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 16 Sep 2019 11:01:48 GMT
+Connection: keep-alive
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "cupprint.ru"
+  },
+  "status": "pending",
+  "expires": "2019-09-23T11:01:47Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "pending",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/366406830/qLG7Wg",
+      "token": "wpEG6CKV_GhpB3nX8bAdIkgblOjoUcdn1n2UkfDUJ_s"
+    },
+    {
+      "type": "dns-01",
+      "status": "pending",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/366406830/G2t3ng",
+      "token": "wpEG6CKV_GhpB3nX8bAdIkgblOjoUcdn1n2UkfDUJ_s"
+    },
+    {
+      "type": "tls-alpn-01",
+      "status": "pending",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/366406830/VfNwOQ",
+      "token": "wpEG6CKV_GhpB3nX8bAdIkgblOjoUcdn1n2UkfDUJ_s"
+    }
+  ]
+}
+2019-09-16 11:01:48,125:DEBUG:acme.client:Storing nonce: 0002PBRW1XlmtMpNqmx1mdgFK4vKMw0t_vQjYS_f13DpTmU
+2019-09-16 11:01:48,125:INFO:certbot.auth_handler:Performing the following challenges:
+2019-09-16 11:01:48,125:INFO:certbot.auth_handler:http-01 challenge for cupprint.ru
+2019-09-16 11:01:48,161:DEBUG:certbot_apache.http_01:Adding a temporary challenge validation Include for name: cupprint.ru in: /etc/apache2/sites-enabled/cupprint-ru.conf
+2019-09-16 11:01:48,161:DEBUG:certbot_apache.http_01:writing a pre config file with text:
+         RewriteEngine on
+        RewriteRule ^/\.well-known/acme-challenge/([A-Za-z0-9-_=]+)$ /var/lib/letsencrypt/http_challenges/$1 [END]
+    
+2019-09-16 11:01:48,161:DEBUG:certbot_apache.http_01:writing a post config file with text:
+         <Directory /var/lib/letsencrypt/http_challenges>
+            Require all granted
+        </Directory>
+        <Location /.well-known/acme-challenge>
+            Require all granted
+        </Location>
+    
+2019-09-16 11:01:48,170:DEBUG:certbot.reverter:Creating backup of /etc/apache2/sites-enabled/cupprint-ru.conf
+2019-09-16 11:01:51,333:INFO:certbot.auth_handler:Waiting for verification...
+2019-09-16 11:01:51,333:DEBUG:acme.client:JWS payload:
+b'{\n  "resource": "challenge",\n  "keyAuthorization": "wpEG6CKV_GhpB3nX8bAdIkgblOjoUcdn1n2UkfDUJ_s.sMhU03B3hnY3YgVsRdfiiUCBfVKh8V8sMUSFEjzIM70",\n  "type": "http-01"\n}'
+2019-09-16 11:01:51,335:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/chall-v3/366406830/qLG7Wg:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvNjU4ODUxMjMiLCAibm9uY2UiOiAiMDAwMlBCUlcxWGxtdE1wTnFteDFtZGdGSzR2S013MHRfdlFqWVNfZjEzRHBUbVUiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2NoYWxsLXYzLzM2NjQwNjgzMC9xTEc3V2cifQ",
+  "signature": "NwZxqrpuLW0ptp8B4eA0ofIwe4yvTDF6OXSVNeAjxryoJNmW_2PSH-TQSXUurE4zNErRmatujndLCIV2cI6N_taI4J83PAwto3n-OHewAU8WvdrU53cykYGP_pvO6GwT7zIMEhUGFmqDB4uO3zukRsXF82BiGy9qJYNrSnphrqDsVLQvDyTRDO9T4bVD0olVwvftOZv4lJ7Rfob1sZb6taeP7o-Oikx0OT4dc9XuR7AbY5Raf3OtOLywyIPaos1PcZ5KVt4aOta20bGslKGpmrXUQWTKSEUeQfJ-EG5AkEP4SQEPmernoZ0TNeewh-_XvErI7upJR5ebTgkk__z3vA",
+  "payload": "ewogICJyZXNvdXJjZSI6ICJjaGFsbGVuZ2UiLAogICJrZXlBdXRob3JpemF0aW9uIjogIndwRUc2Q0tWX0docEIzblg4YkFkSWtnYmxPam9VY2RuMW4yVWtmRFVKX3Muc01oVTAzQjNoblkzWWdWc1JkZmlpVUNCZlZLaDhWOHNNVVNGRWp6SU03MCIsCiAgInR5cGUiOiAiaHR0cC0wMSIKfQ"
+}
+2019-09-16 11:01:51,624:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/chall-v3/366406830/qLG7Wg HTTP/1.1" 200 184
+2019-09-16 11:01:51,625:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Content-Type: application/json
+Content-Length: 184
+Boulder-Requester: 65885123
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index", <https://acme-v02.api.letsencrypt.org/acme/authz-v3/366406830>;rel="up"
+Location: https://acme-v02.api.letsencrypt.org/acme/chall-v3/366406830/qLG7Wg
+Replay-Nonce: 0002LOsfIU6nySAor4kux2xJoHJumaPDvVJSI1hJjQKsuIQ
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+Expires: Mon, 16 Sep 2019 11:01:51 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 16 Sep 2019 11:01:51 GMT
+Connection: keep-alive
+
+{
+  "type": "http-01",
+  "status": "pending",
+  "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/366406830/qLG7Wg",
+  "token": "wpEG6CKV_GhpB3nX8bAdIkgblOjoUcdn1n2UkfDUJ_s"
+}
+2019-09-16 11:01:51,625:DEBUG:acme.client:Storing nonce: 0002LOsfIU6nySAor4kux2xJoHJumaPDvVJSI1hJjQKsuIQ
+2019-09-16 11:01:54,627:DEBUG:acme.client:JWS payload:
+b''
+2019-09-16 11:01:54,629:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/authz-v3/366406830:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvNjU4ODUxMjMiLCAibm9uY2UiOiAiMDAwMkxPc2ZJVTZueVNBb3I0a3V4MnhKb0hKdW1hUER2VkpTSTFoSmpRS3N1SVEiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2F1dGh6LXYzLzM2NjQwNjgzMCJ9",
+  "signature": "Rk5IE1osg9Rc3cJajJGDRt_oltwqWTmslZuUQN1xZZXBDSTg-BPACLKGfsm0q3L2JeBOkmqdpUv4G2lMLd3qEDeQqcUlBkqlI22gtNnvbFbDd4-ZP5iaoDhbDsY3tU8lCTFga6OCHFzUBii6seGtW0M1lbzdYtilyWxxDAune5sxiWumnkQ3jt5Fi_ft7aiAo5iNYmp8GYXiFaRRVhTzq3_IbT0pdo8ABLqD7yNknh1B3AIowLuOjbamB5XzU8WevFuQR1902O62VXYfeHZAf69otDrEjPkyiUKUp1hbMWhreM_yP9LnTm-Jcwhff724qWtG_QYWQd6Kuo_gexSEVQ",
+  "payload": ""
+}
+2019-09-16 11:01:54,908:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/366406830 HTTP/1.1" 200 1633
+2019-09-16 11:01:54,908:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Content-Type: application/json
+Content-Length: 1633
+Boulder-Requester: 65885123
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0001GIIQCIAr-Em49z-E80MahB2E37dG5g-gqN0IHNi5qOQ
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+Expires: Mon, 16 Sep 2019 11:01:54 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 16 Sep 2019 11:01:54 GMT
+Connection: keep-alive
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "cupprint.ru"
+  },
+  "status": "invalid",
+  "expires": "2019-09-23T11:01:47Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "invalid",
+      "error": {
+        "type": "urn:ietf:params:acme:error:unauthorized",
+        "detail": "Invalid response from http://cupprint.ru/.well-known/acme-challenge/wpEG6CKV_GhpB3nX8bAdIkgblOjoUcdn1n2UkfDUJ_s [212.147.209.62]: \"\u003c!DOCTYPE HTML PUBLIC \\\"-//IETF//DTD HTML 2.0//EN\\\"\u003e\\n\u003chtml\u003e\u003chead\u003e\\n\u003ctitle\u003e404 Not Found\u003c/title\u003e\\n\u003c/head\u003e\u003cbody\u003e\\n\u003ch1\u003eNot Found\u003c/h1\u003e\\n\u003cp\"",
+        "status": 403
+      },
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/366406830/qLG7Wg",
+      "token": "wpEG6CKV_GhpB3nX8bAdIkgblOjoUcdn1n2UkfDUJ_s",
+      "validationRecord": [
+        {
+          "url": "http://cupprint.ru/.well-known/acme-challenge/wpEG6CKV_GhpB3nX8bAdIkgblOjoUcdn1n2UkfDUJ_s",
+          "hostname": "cupprint.ru",
+          "port": "80",
+          "addressesResolved": [
+            "212.147.209.62"
+          ],
+          "addressUsed": "212.147.209.62"
+        }
+      ]
+    },
+    {
+      "type": "dns-01",
+      "status": "invalid",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/366406830/G2t3ng",
+      "token": "wpEG6CKV_GhpB3nX8bAdIkgblOjoUcdn1n2UkfDUJ_s"
+    },
+    {
+      "type": "tls-alpn-01",
+      "status": "invalid",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/366406830/VfNwOQ",
+      "token": "wpEG6CKV_GhpB3nX8bAdIkgblOjoUcdn1n2UkfDUJ_s"
+    }
+  ]
+}
+2019-09-16 11:01:54,909:DEBUG:acme.client:Storing nonce: 0001GIIQCIAr-Em49z-E80MahB2E37dG5g-gqN0IHNi5qOQ
+2019-09-16 11:01:54,909:DEBUG:certbot.reporter:Reporting to user: The following errors were reported by the server:
+
+Domain: cupprint.ru
+Type:   unauthorized
+Detail: Invalid response from http://cupprint.ru/.well-known/acme-challenge/wpEG6CKV_GhpB3nX8bAdIkgblOjoUcdn1n2UkfDUJ_s [212.147.209.62]: "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p"
+
+To fix these errors, please make sure that your domain name was entered correctly and the DNS A/AAAA record(s) for that domain contain(s) the right IP address.
+2019-09-16 11:01:54,910:DEBUG:certbot.error_handler:Encountered exception:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot/auth_handler.py", line 82, in handle_authorizations
+    self._respond(aauthzrs, resp, best_effort)
+  File "/usr/lib/python3/dist-packages/certbot/auth_handler.py", line 168, in _respond
+    self._poll_challenges(aauthzrs, chall_update, best_effort)
+  File "/usr/lib/python3/dist-packages/certbot/auth_handler.py", line 239, in _poll_challenges
+    raise errors.FailedChallenges(all_failed_achalls)
+certbot.errors.FailedChallenges: Failed authorization procedure. cupprint.ru (http-01): urn:ietf:params:acme:error:unauthorized :: The client lacks sufficient authorization :: Invalid response from http://cupprint.ru/.well-known/acme-challenge/wpEG6CKV_GhpB3nX8bAdIkgblOjoUcdn1n2UkfDUJ_s [212.147.209.62]: "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p"
+
+2019-09-16 11:01:54,910:DEBUG:certbot.error_handler:Calling registered functions
+2019-09-16 11:01:54,910:INFO:certbot.auth_handler:Cleaning up challenges
+2019-09-16 11:01:55,146:DEBUG:certbot.log:Exiting abnormally:
+Traceback (most recent call last):
+  File "/usr/bin/certbot", line 11, in <module>
+    load_entry_point('certbot==0.31.0', 'console_scripts', 'certbot')()
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 1365, in main
+    return config.func(config, plugins)
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 1119, in run
+    certname, lineage)
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 116, in _get_and_save_cert
+    renewal.renew_cert(config, domains, le_client, lineage)
+  File "/usr/lib/python3/dist-packages/certbot/renewal.py", line 310, in renew_cert
+    new_cert, new_chain, new_key, _ = le_client.obtain_certificate(domains, new_key)
+  File "/usr/lib/python3/dist-packages/certbot/client.py", line 353, in obtain_certificate
+    orderr = self._get_order_and_authorizations(csr.data, self.config.allow_subset_of_names)
+  File "/usr/lib/python3/dist-packages/certbot/client.py", line 389, in _get_order_and_authorizations
+    authzr = self.auth_handler.handle_authorizations(orderr, best_effort)
+  File "/usr/lib/python3/dist-packages/certbot/auth_handler.py", line 82, in handle_authorizations
+    self._respond(aauthzrs, resp, best_effort)
+  File "/usr/lib/python3/dist-packages/certbot/auth_handler.py", line 168, in _respond
+    self._poll_challenges(aauthzrs, chall_update, best_effort)
+  File "/usr/lib/python3/dist-packages/certbot/auth_handler.py", line 239, in _poll_challenges
+    raise errors.FailedChallenges(all_failed_achalls)
+certbot.errors.FailedChallenges: Failed authorization procedure. cupprint.ru (http-01): urn:ietf:params:acme:error:unauthorized :: The client lacks sufficient authorization :: Invalid response from http://cupprint.ru/.well-known/acme-challenge/wpEG6CKV_GhpB3nX8bAdIkgblOjoUcdn1n2UkfDUJ_s [212.147.209.62]: "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p"
+2019-09-16 11:04:47,113:DEBUG:certbot.main:certbot version: 0.31.0
+2019-09-16 11:04:47,113:DEBUG:certbot.main:Arguments: ['--apache']
+2019-09-16 11:04:47,114:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#apache,PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2019-09-16 11:04:47,120:DEBUG:certbot.log:Root logging level set at 20
+2019-09-16 11:04:47,120:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2019-09-16 11:04:47,121:DEBUG:certbot.plugins.selection:Requested authenticator apache and installer apache
+2019-09-16 11:04:47,224:DEBUG:certbot_apache.configurator:Apache version is 2.4.29
+2019-09-16 11:04:47,578:DEBUG:certbot.plugins.selection:Single candidate plugin: * apache
+Description: Apache Web Server plugin
+Interfaces: IAuthenticator, IInstaller, IPlugin
+Entry point: apache = certbot_apache.entrypoint:ENTRYPOINT
+Initialized: <certbot_apache.override_debian.DebianConfigurator object at 0x7f2741420f60>
+Prep: True
+2019-09-16 11:04:47,580:DEBUG:certbot.plugins.selection:Selected authenticator <certbot_apache.override_debian.DebianConfigurator object at 0x7f2741420f60> and installer <certbot_apache.override_debian.DebianConfigurator object at 0x7f2741420f60>
+2019-09-16 11:04:47,580:INFO:certbot.plugins.selection:Plugins selected: Authenticator apache, Installer apache
+2019-09-16 11:04:47,583:DEBUG:certbot.main:Picked account: <Account(RegistrationResource(body=Registration(key=None, contact=(), agreement=None, status=None, terms_of_service_agreed=None, only_return_existing=None, external_account_binding=None), uri='https://acme-v02.api.letsencrypt.org/acme/acct/65885123', new_authzr_uri=None, terms_of_service=None), 4d9147130b614d3b3b3f3e21dfb1e65c, Meta(creation_dt=datetime.datetime(2019, 9, 13, 9, 27, 13, tzinfo=<UTC>), creation_host='cupprint.ru'))>
+2019-09-16 11:04:47,584:DEBUG:acme.client:Sending GET request to https://acme-v02.api.letsencrypt.org/directory.
+2019-09-16 11:04:47,586:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): acme-v02.api.letsencrypt.org
+2019-09-16 11:04:47,916:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "GET /directory HTTP/1.1" 200 658
+2019-09-16 11:04:47,917:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Content-Type: application/json
+Content-Length: 658
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+Expires: Mon, 16 Sep 2019 11:04:47 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 16 Sep 2019 11:04:47 GMT
+Connection: keep-alive
+
+{
+  "keyChange": "https://acme-v02.api.letsencrypt.org/acme/key-change",
+  "meta": {
+    "caaIdentities": [
+      "letsencrypt.org"
+    ],
+    "termsOfService": "https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf",
+    "website": "https://letsencrypt.org"
+  },
+  "newAccount": "https://acme-v02.api.letsencrypt.org/acme/new-acct",
+  "newNonce": "https://acme-v02.api.letsencrypt.org/acme/new-nonce",
+  "newOrder": "https://acme-v02.api.letsencrypt.org/acme/new-order",
+  "revokeCert": "https://acme-v02.api.letsencrypt.org/acme/revoke-cert",
+  "y89JKXcKnHU": "https://community.letsencrypt.org/t/adding-random-entries-to-the-directory/33417"
+}
+2019-09-16 11:04:55,621:INFO:certbot.main:Renewing an existing certificate
+2019-09-16 11:04:55,708:DEBUG:certbot.crypto_util:Generating key (2048 bits): /etc/letsencrypt/keys/0002_key-certbot.pem
+2019-09-16 11:04:55,710:DEBUG:certbot.crypto_util:Creating CSR: /etc/letsencrypt/csr/0002_csr-certbot.pem
+2019-09-16 11:04:55,710:DEBUG:acme.client:Requesting fresh nonce
+2019-09-16 11:04:55,710:DEBUG:acme.client:Sending HEAD request to https://acme-v02.api.letsencrypt.org/acme/new-nonce.
+2019-09-16 11:04:55,901:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "HEAD /acme/new-nonce HTTP/1.1" 200 0
+2019-09-16 11:04:55,901:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0002A08RlHlliY5_PCNqXB5p6oI3etadAqb0upZK_x9t9_4
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+Content-Length: 0
+Expires: Mon, 16 Sep 2019 11:04:55 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 16 Sep 2019 11:04:55 GMT
+Connection: keep-alive
+
+
+2019-09-16 11:04:55,901:DEBUG:acme.client:Storing nonce: 0002A08RlHlliY5_PCNqXB5p6oI3etadAqb0upZK_x9t9_4
+2019-09-16 11:04:55,902:DEBUG:acme.client:JWS payload:
+b'{\n  "identifiers": [\n    {\n      "type": "dns",\n      "value": "cupprint.ru"\n    },\n    {\n      "type": "dns",\n      "value": "staging.cupprint.ru"\n    }\n  ]\n}'
+2019-09-16 11:04:55,904:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/new-order:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvNjU4ODUxMjMiLCAibm9uY2UiOiAiMDAwMkEwOFJsSGxsaVk1X1BDTnFYQjVwNm9JM2V0YWRBcWIwdXBaS194OXQ5XzQiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL25ldy1vcmRlciJ9",
+  "signature": "hVVyVG5aVcCLzbtdf_zNblLoMzIbTtms_ddxBQC2ZHBbQeV_E_DRc5FtI8vHT0PQ4JKiYGvDfmt1NcPsKyE8WI_oSNfuY2pY5SyLKwFQD0zMapLXXDBTum26i8Q7_H7dfvNzA7N4hF9U0p7_yxkiF3Auu_L1BVcuMe2xV418AtPlumgcziDg2Q__xWRc309Td0a-59I_7xixWJJGjU_og9eg4Jiz80817dhpVE29pttddVyNqK6rwK9duXI8cnk1soWkogM2NQR1evKvBtRFyAmwITusC6PweluvFXU1gO1vduHZRitXJvI-kxJ5HJwZiESlMrR2xOk79GEKx-Dccw",
+  "payload": "ewogICJpZGVudGlmaWVycyI6IFsKICAgIHsKICAgICAgInR5cGUiOiAiZG5zIiwKICAgICAgInZhbHVlIjogImN1cHByaW50LnJ1IgogICAgfSwKICAgIHsKICAgICAgInR5cGUiOiAiZG5zIiwKICAgICAgInZhbHVlIjogInN0YWdpbmcuY3VwcHJpbnQucnUiCiAgICB9CiAgXQp9"
+}
+2019-09-16 11:04:56,165:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/new-order HTTP/1.1" 201 479
+2019-09-16 11:04:56,166:DEBUG:acme.client:Received response:
+HTTP 201
+Server: nginx
+Content-Type: application/json
+Content-Length: 479
+Boulder-Requester: 65885123
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Location: https://acme-v02.api.letsencrypt.org/acme/order/65885123/1098836786
+Replay-Nonce: 0001ovfXQuyZtOQymS__E4-XeFBKMdKO7Er0UfhuCDrbAZE
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+Expires: Mon, 16 Sep 2019 11:04:56 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 16 Sep 2019 11:04:56 GMT
+Connection: keep-alive
+
+{
+  "status": "pending",
+  "expires": "2019-09-23T11:04:56.055797854Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "cupprint.ru"
+    },
+    {
+      "type": "dns",
+      "value": "staging.cupprint.ru"
+    }
+  ],
+  "authorizations": [
+    "https://acme-v02.api.letsencrypt.org/acme/authz-v3/321288466",
+    "https://acme-v02.api.letsencrypt.org/acme/authz-v3/366435947"
+  ],
+  "finalize": "https://acme-v02.api.letsencrypt.org/acme/finalize/65885123/1098836786"
+}
+2019-09-16 11:04:56,166:DEBUG:acme.client:Storing nonce: 0001ovfXQuyZtOQymS__E4-XeFBKMdKO7Er0UfhuCDrbAZE
+2019-09-16 11:04:56,166:DEBUG:acme.client:JWS payload:
+b''
+2019-09-16 11:04:56,167:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/authz-v3/321288466:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvNjU4ODUxMjMiLCAibm9uY2UiOiAiMDAwMW92ZlhRdXladE9ReW1TX19FNC1YZUZCS01kS083RXIwVWZodUNEcmJBWkUiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2F1dGh6LXYzLzMyMTI4ODQ2NiJ9",
+  "signature": "PBYeugOxL-oRynk1Rr9oau0d1wsfEfP1_sy7b7QBXGpLWcobYMbA8XSEntb-gRCC1ktul4u-gGmkspi6B7OHxjDCAEBBdo-QhTWdtG-5CZqpfWP2BfXCGwnWNCHNS059JfqHXSGPHT8XWEU_qhstS-JX0zsnChhQlImupE8BR2EN98oGv1JIKHCBZoKRCtHdNrKRgzEwYcf58a-hkb0ISe-3DsYs-HpvI5NTw75bTqNkqp7gbiAyOfQ4QCRFZs3aMgAtR8kvCbdr2zXf2SLeAde_nfNemvBwJXME4tkTDwtbdMgItOTWTq8uSod6qe2YERs_qdvVgcXpn2IvACmSVA",
+  "payload": ""
+}
+2019-09-16 11:04:56,387:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/321288466 HTTP/1.1" 200 1151
+2019-09-16 11:04:56,387:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Content-Type: application/json
+Content-Length: 1151
+Boulder-Requester: 65885123
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0002ueBr9RTHD3W3K0giVoXNvaWJJp1dzQIBD1dqCmGSHZw
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+Expires: Mon, 16 Sep 2019 11:04:56 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 16 Sep 2019 11:04:56 GMT
+Connection: keep-alive
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "staging.cupprint.ru"
+  },
+  "status": "valid",
+  "expires": "2019-10-20T09:27:17Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "valid",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/321288466/diGCFg",
+      "token": "xgzTyoiiXEHkytYRPc0P9yN1tn5nZJiyqmi1sXMOZXU",
+      "validationRecord": [
+        {
+          "url": "http://staging.cupprint.ru/.well-known/acme-challenge/xgzTyoiiXEHkytYRPc0P9yN1tn5nZJiyqmi1sXMOZXU",
+          "hostname": "staging.cupprint.ru",
+          "port": "80",
+          "addressesResolved": [
+            "212.147.209.62"
+          ],
+          "addressUsed": "212.147.209.62"
+        }
+      ]
+    },
+    {
+      "type": "dns-01",
+      "status": "pending",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/321288466/1Uofbw",
+      "token": "xgzTyoiiXEHkytYRPc0P9yN1tn5nZJiyqmi1sXMOZXU"
+    },
+    {
+      "type": "tls-alpn-01",
+      "status": "pending",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/321288466/3_7qdA",
+      "token": "xgzTyoiiXEHkytYRPc0P9yN1tn5nZJiyqmi1sXMOZXU"
+    }
+  ]
+}
+2019-09-16 11:04:56,387:DEBUG:acme.client:Storing nonce: 0002ueBr9RTHD3W3K0giVoXNvaWJJp1dzQIBD1dqCmGSHZw
+2019-09-16 11:04:56,388:DEBUG:acme.client:JWS payload:
+b''
+2019-09-16 11:04:56,389:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/authz-v3/366435947:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvNjU4ODUxMjMiLCAibm9uY2UiOiAiMDAwMnVlQnI5UlRIRDNXM0swZ2lWb1hOdmFXSkpwMWR6UUlCRDFkcUNtR1NIWnciLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2F1dGh6LXYzLzM2NjQzNTk0NyJ9",
+  "signature": "DRkbpBze98t_aphU7KFUE7Jj6_lUSljkRVRHUnOhL8rGdwe4GtA9UVlCUn7UCYnHpsvo4l1G2qSLHwaECcJ6UkNBfv8aytmO1WtZrOfsudBq7rHruEtr0lwXSF3vjNsphzu-K1hQNXu6--DQCTtzn21jZBWLpywElWFUWfeA51ItC4S8oQYdl5YMpnGrauHAUaNEOZKMSxCTkGnJAG_9l8meqjG7gOT-dNFHVvc9U1tw-0AgUktYN1UVy73Bg5Vt2dt4C3ysFeC9J-SBMFyt37uZ22AwSG-444pcqwBPOAnhhBq0xa8IzIpc8pdjbI_vUT036dTfjSeCKszK62SDnQ",
+  "payload": ""
+}
+2019-09-16 11:04:56,627:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/366435947 HTTP/1.1" 200 786
+2019-09-16 11:04:56,627:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Content-Type: application/json
+Content-Length: 786
+Boulder-Requester: 65885123
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0002-yD9b8wDbEjzak99vpiacJ3zyNq209UAXK-rw0d8qVU
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+Expires: Mon, 16 Sep 2019 11:04:56 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 16 Sep 2019 11:04:56 GMT
+Connection: keep-alive
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "cupprint.ru"
+  },
+  "status": "pending",
+  "expires": "2019-09-23T11:04:56Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "pending",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/366435947/kfZCnw",
+      "token": "bUxOnA5SqhfhaSDXHhy1_RMPMpke4CUDDANSfrI30hk"
+    },
+    {
+      "type": "dns-01",
+      "status": "pending",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/366435947/qWuzfQ",
+      "token": "bUxOnA5SqhfhaSDXHhy1_RMPMpke4CUDDANSfrI30hk"
+    },
+    {
+      "type": "tls-alpn-01",
+      "status": "pending",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/366435947/BE0RiQ",
+      "token": "bUxOnA5SqhfhaSDXHhy1_RMPMpke4CUDDANSfrI30hk"
+    }
+  ]
+}
+2019-09-16 11:04:56,627:DEBUG:acme.client:Storing nonce: 0002-yD9b8wDbEjzak99vpiacJ3zyNq209UAXK-rw0d8qVU
+2019-09-16 11:04:56,627:INFO:certbot.auth_handler:Performing the following challenges:
+2019-09-16 11:04:56,628:INFO:certbot.auth_handler:http-01 challenge for cupprint.ru
+2019-09-16 11:04:56,663:DEBUG:certbot_apache.http_01:Adding a temporary challenge validation Include for name: cupprint.ru in: /etc/apache2/sites-enabled/cupprint-ru.conf
+2019-09-16 11:04:56,664:DEBUG:certbot_apache.http_01:writing a pre config file with text:
+         RewriteEngine on
+        RewriteRule ^/\.well-known/acme-challenge/([A-Za-z0-9-_=]+)$ /var/lib/letsencrypt/http_challenges/$1 [END]
+    
+2019-09-16 11:04:56,664:DEBUG:certbot_apache.http_01:writing a post config file with text:
+         <Directory /var/lib/letsencrypt/http_challenges>
+            Require all granted
+        </Directory>
+        <Location /.well-known/acme-challenge>
+            Require all granted
+        </Location>
+    
+2019-09-16 11:04:56,672:DEBUG:certbot.reverter:Creating backup of /etc/apache2/sites-enabled/cupprint-ru.conf
+2019-09-16 11:04:59,795:INFO:certbot.auth_handler:Waiting for verification...
+2019-09-16 11:04:59,796:DEBUG:acme.client:JWS payload:
+b'{\n  "resource": "challenge",\n  "keyAuthorization": "bUxOnA5SqhfhaSDXHhy1_RMPMpke4CUDDANSfrI30hk.sMhU03B3hnY3YgVsRdfiiUCBfVKh8V8sMUSFEjzIM70",\n  "type": "http-01"\n}'
+2019-09-16 11:04:59,798:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/chall-v3/366435947/kfZCnw:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvNjU4ODUxMjMiLCAibm9uY2UiOiAiMDAwMi15RDliOHdEYkVqemFrOTl2cGlhY0ozenlOcTIwOVVBWEstcncwZDhxVlUiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2NoYWxsLXYzLzM2NjQzNTk0Ny9rZlpDbncifQ",
+  "signature": "l-JE7Gpe2I9VJv2QYRlLlC_XPpv8KrI_lxuHPp_7uw5dg0ndjIIqSvfyCrdeIRmviNyI5fAtd_ZwCzQaMkLXLM1HL3mHOD3IcNhj17zvzQmmwum3QzPCrDWoy4OYg3SjMOPj1hObhfUxmsbI-Vey3Bt_7Jj-y0CJZq4pUir3Ht46ZwJEDspKQqwTRmHYNo-ijUq7QFXYCqCKcTzNYmGQ5hWX5adzGV8Y8zwj1Y6tDSkK6znVcjMX-ULfB-O_gllfwMlUC9GrdySPy0fg_lMzERE-2v57zbsCNRvPyAmn6mWHab0x149mgHbCbHbw_JXJklZuOkcCljV6k1fGRMnNCA",
+  "payload": "ewogICJyZXNvdXJjZSI6ICJjaGFsbGVuZ2UiLAogICJrZXlBdXRob3JpemF0aW9uIjogImJVeE9uQTVTcWhmaGFTRFhIaHkxX1JNUE1wa2U0Q1VEREFOU2ZySTMwaGsuc01oVTAzQjNoblkzWWdWc1JkZmlpVUNCZlZLaDhWOHNNVVNGRWp6SU03MCIsCiAgInR5cGUiOiAiaHR0cC0wMSIKfQ"
+}
+2019-09-16 11:05:00,038:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/chall-v3/366435947/kfZCnw HTTP/1.1" 200 184
+2019-09-16 11:05:00,038:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Content-Type: application/json
+Content-Length: 184
+Boulder-Requester: 65885123
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index", <https://acme-v02.api.letsencrypt.org/acme/authz-v3/366435947>;rel="up"
+Location: https://acme-v02.api.letsencrypt.org/acme/chall-v3/366435947/kfZCnw
+Replay-Nonce: 0001kWUke0ERDssG0Aep42VLo2R4YMSOPwllBqTT06CSDuA
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+Expires: Mon, 16 Sep 2019 11:05:00 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 16 Sep 2019 11:05:00 GMT
+Connection: keep-alive
+
+{
+  "type": "http-01",
+  "status": "pending",
+  "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/366435947/kfZCnw",
+  "token": "bUxOnA5SqhfhaSDXHhy1_RMPMpke4CUDDANSfrI30hk"
+}
+2019-09-16 11:05:00,039:DEBUG:acme.client:Storing nonce: 0001kWUke0ERDssG0Aep42VLo2R4YMSOPwllBqTT06CSDuA
+2019-09-16 11:05:03,042:DEBUG:acme.client:JWS payload:
+b''
+2019-09-16 11:05:03,043:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/authz-v3/366435947:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvNjU4ODUxMjMiLCAibm9uY2UiOiAiMDAwMWtXVWtlMEVSRHNzRzBBZXA0MlZMbzJSNFlNU09Qd2xsQnFUVDA2Q1NEdUEiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2F1dGh6LXYzLzM2NjQzNTk0NyJ9",
+  "signature": "CYXeAiKrB2DFyyOZSmGbVzy9zoWr1WTYvV6Q0dJ4yNkLb3X924GkHWiQBpOVopdHfALTZYl9muJrdpQfDU3tacEe72yg605uu6A4p4Ei2e7Q5Dr_izyPu0F55kw_IaBij1GUpdpuXJ2JETBcfJH4JdZ-ayeiw3ObZQqThpNy4hhYf2l6MeF0ZZuP4tkBqP_-Zl76CmyjZcb5hxj_2FKdP-l3-hPjhjxOZ6TSac5SzYVVVsAPW-lERsA5mED5Nb9Ban9xt4vb4Aoey0JO28QuKXy_rtU60kbWxtLyzGq-AHW5U7BdcnOV22HpnzZobHqULAQxLX0WPTodJJVyz4Nd1w",
+  "payload": ""
+}
+2019-09-16 11:05:03,379:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/366435947 HTTP/1.1" 200 1633
+2019-09-16 11:05:03,380:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Content-Type: application/json
+Content-Length: 1633
+Boulder-Requester: 65885123
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 00018ymTUMyeogUj8oPMdW14XgkiFMul_BHne64RC_dASB0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+Expires: Mon, 16 Sep 2019 11:05:03 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 16 Sep 2019 11:05:03 GMT
+Connection: keep-alive
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "cupprint.ru"
+  },
+  "status": "invalid",
+  "expires": "2019-09-23T11:04:56Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "invalid",
+      "error": {
+        "type": "urn:ietf:params:acme:error:unauthorized",
+        "detail": "Invalid response from http://cupprint.ru/.well-known/acme-challenge/bUxOnA5SqhfhaSDXHhy1_RMPMpke4CUDDANSfrI30hk [212.147.209.62]: \"\u003c!DOCTYPE HTML PUBLIC \\\"-//IETF//DTD HTML 2.0//EN\\\"\u003e\\n\u003chtml\u003e\u003chead\u003e\\n\u003ctitle\u003e404 Not Found\u003c/title\u003e\\n\u003c/head\u003e\u003cbody\u003e\\n\u003ch1\u003eNot Found\u003c/h1\u003e\\n\u003cp\"",
+        "status": 403
+      },
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/366435947/kfZCnw",
+      "token": "bUxOnA5SqhfhaSDXHhy1_RMPMpke4CUDDANSfrI30hk",
+      "validationRecord": [
+        {
+          "url": "http://cupprint.ru/.well-known/acme-challenge/bUxOnA5SqhfhaSDXHhy1_RMPMpke4CUDDANSfrI30hk",
+          "hostname": "cupprint.ru",
+          "port": "80",
+          "addressesResolved": [
+            "212.147.209.62"
+          ],
+          "addressUsed": "212.147.209.62"
+        }
+      ]
+    },
+    {
+      "type": "dns-01",
+      "status": "invalid",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/366435947/qWuzfQ",
+      "token": "bUxOnA5SqhfhaSDXHhy1_RMPMpke4CUDDANSfrI30hk"
+    },
+    {
+      "type": "tls-alpn-01",
+      "status": "invalid",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/366435947/BE0RiQ",
+      "token": "bUxOnA5SqhfhaSDXHhy1_RMPMpke4CUDDANSfrI30hk"
+    }
+  ]
+}
+2019-09-16 11:05:03,380:DEBUG:acme.client:Storing nonce: 00018ymTUMyeogUj8oPMdW14XgkiFMul_BHne64RC_dASB0
+2019-09-16 11:05:03,381:DEBUG:certbot.reporter:Reporting to user: The following errors were reported by the server:
+
+Domain: cupprint.ru
+Type:   unauthorized
+Detail: Invalid response from http://cupprint.ru/.well-known/acme-challenge/bUxOnA5SqhfhaSDXHhy1_RMPMpke4CUDDANSfrI30hk [212.147.209.62]: "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p"
+
+To fix these errors, please make sure that your domain name was entered correctly and the DNS A/AAAA record(s) for that domain contain(s) the right IP address.
+2019-09-16 11:05:03,381:DEBUG:certbot.error_handler:Encountered exception:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot/auth_handler.py", line 82, in handle_authorizations
+    self._respond(aauthzrs, resp, best_effort)
+  File "/usr/lib/python3/dist-packages/certbot/auth_handler.py", line 168, in _respond
+    self._poll_challenges(aauthzrs, chall_update, best_effort)
+  File "/usr/lib/python3/dist-packages/certbot/auth_handler.py", line 239, in _poll_challenges
+    raise errors.FailedChallenges(all_failed_achalls)
+certbot.errors.FailedChallenges: Failed authorization procedure. cupprint.ru (http-01): urn:ietf:params:acme:error:unauthorized :: The client lacks sufficient authorization :: Invalid response from http://cupprint.ru/.well-known/acme-challenge/bUxOnA5SqhfhaSDXHhy1_RMPMpke4CUDDANSfrI30hk [212.147.209.62]: "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p"
+
+2019-09-16 11:05:03,381:DEBUG:certbot.error_handler:Calling registered functions
+2019-09-16 11:05:03,381:INFO:certbot.auth_handler:Cleaning up challenges
+2019-09-16 11:05:03,695:DEBUG:certbot.log:Exiting abnormally:
+Traceback (most recent call last):
+  File "/usr/bin/certbot", line 11, in <module>
+    load_entry_point('certbot==0.31.0', 'console_scripts', 'certbot')()
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 1365, in main
+    return config.func(config, plugins)
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 1119, in run
+    certname, lineage)
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 116, in _get_and_save_cert
+    renewal.renew_cert(config, domains, le_client, lineage)
+  File "/usr/lib/python3/dist-packages/certbot/renewal.py", line 310, in renew_cert
+    new_cert, new_chain, new_key, _ = le_client.obtain_certificate(domains, new_key)
+  File "/usr/lib/python3/dist-packages/certbot/client.py", line 353, in obtain_certificate
+    orderr = self._get_order_and_authorizations(csr.data, self.config.allow_subset_of_names)
+  File "/usr/lib/python3/dist-packages/certbot/client.py", line 389, in _get_order_and_authorizations
+    authzr = self.auth_handler.handle_authorizations(orderr, best_effort)
+  File "/usr/lib/python3/dist-packages/certbot/auth_handler.py", line 82, in handle_authorizations
+    self._respond(aauthzrs, resp, best_effort)
+  File "/usr/lib/python3/dist-packages/certbot/auth_handler.py", line 168, in _respond
+    self._poll_challenges(aauthzrs, chall_update, best_effort)
+  File "/usr/lib/python3/dist-packages/certbot/auth_handler.py", line 239, in _poll_challenges
+    raise errors.FailedChallenges(all_failed_achalls)
+certbot.errors.FailedChallenges: Failed authorization procedure. cupprint.ru (http-01): urn:ietf:params:acme:error:unauthorized :: The client lacks sufficient authorization :: Invalid response from http://cupprint.ru/.well-known/acme-challenge/bUxOnA5SqhfhaSDXHhy1_RMPMpke4CUDDANSfrI30hk [212.147.209.62]: "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p"
