@@ -1,0 +1,21 @@
+server {
+  set $name "uk.cupprint.com";
+  set $fastcgi_sock "cupprint_develop";
+
+  listen 80.237.214.81:443 ssl;
+  server_name uk.cupprint.com;
+  root /var/www/uk.cupprint.com;
+
+  ssl_certificate /etc/nginx/ssl/cupprint_chain.pem;
+
+  location / {
+   index index.php index.html index.htm;
+   try_files $uri $uri/ /index.php?$args;
+   # Eingabeaufforderung für Benutzerdaten
+   auth_basic "CupPrint UK";
+   # nginx sagen wo die validen Benutzerdaten hinterlegt sind
+   auth_basic_user_file /var/www/htpasswd;
+  }
+
+  include /etc/nginx/global/contao.conf;  
+}
