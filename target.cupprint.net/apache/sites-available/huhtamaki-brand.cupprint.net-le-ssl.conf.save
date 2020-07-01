@@ -1,0 +1,51 @@
+<IfModule mod_ssl.c>
+<VirtualHost *:443>
+	# 2020-05-11
+	ServerName huhtamaki-brand.cupprint.net
+	ServerAlias huhtamaki-brand.cupprint.net
+	ServerAdmin support@cupprint.com
+	DocumentRoot /var/www/huhtamaki-faceshield.cupprint.net
+
+	<Directory /var/www/huhtamaki-faceshield.cupprint.net/>
+	   Options -Indexes
+	   AllowOverride All
+	   AuthType Basic
+	   AuthName "Restricted Content"
+	   AuthUserFile /etc/apache2/.htpasswd
+	   Require valid-user
+	</Directory>
+	ErrorLog ${APACHE_LOG_DIR}/huhtamaki-brand.cupprint.net/error.log
+	CustomLog ${APACHE_LOG_DIR}/huhtamaki-brand.cupprint.net/access.log combined
+
+
+# enable max mind module
+    MaxMindDBEnable On
+#point to the country database
+    MaxMindDBFile COUNTRY_DB /usr/share/GeoIP/GeoLite2-Country.mmdb
+#create variable mm_country_code 
+    MaxMindDBEnv MM_COUNTRY_CODE COUNTRY_DB/country/iso_code
+    MaxMindDBEnv MM_COUNTRY_NAME COUNTRY_DB/country/names/en
+    SetEnvIf MM_COUNTRY_CODE ^(AT|BE|BG|CZ|ES|HR|GR|IT|CY|LV|LT|LU|HU|MT|NL|AT|PL|PT|RO|SI|SK) PRICINGREGION=EUROPE
+    SetEnvIf MM_COUNTRY_CODE ^(GB) PRICINGREGION=UK
+    SetEnvIf MM_COUNTRY_CODE ^(IE) PRICINGREGION=IE
+    SetEnvIf MM_COUNTRY_CODE ^(NO) PRICINGREGION=NORWAY
+# if country is Estonia, Finland, Denmark, Sweden
+    SetEnvIf MM_COUNTRY_CODE ^(EE|FI|DK|SE) PRICINGREGION=NORDIC
+
+<IfModule alias_module>
+# ADD THIS LINES FOR YOUR VIRTUAL DIRECTORIES
+Alias /ie /var/www/huhtamaki-faceshield.cupprint.net
+Alias /eu /var/www/huhtamaki-faceshield.cupprint.net
+# 2020-06-10 Norway
+Alias /no /var/www/huhtamaki-faceshield.cupprint.net
+# 2020-06-10 Nordic (Estonia, Finland, Denmark, Sweden)
+Alias /nordic /var/www/huhtamaki-faceshield.cupprint.net
+
+</IfModule>
+
+
+SSLCertificateFile /etc/letsencrypt/live/huhtamaki-brand.cupprint.net/fullchain.pem
+SSLCertificateKeyFile /etc/letsencrypt/live/huhtamaki-brand.cupprint.net/privkey.pem
+Include /etc/letsencrypt/options-ssl-apache.conf
+</VirtualHost>
+</IfModule>
