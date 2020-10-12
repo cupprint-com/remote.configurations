@@ -1,0 +1,1 @@
+/usr/bin/php7.4 /var/www/absence.cupprint.com/index.php KZw5ztpta4w6nwx6
