@@ -2,6 +2,7 @@
 # delete any backups that are older than 4 days
 find /var/scheduled/backups -name "*.sql" -type f -mtime +4  -delete
 
+/usr/bin/mysqldump -uroot  absence -R -e --triggers --single-transaction > /var/scheduled/backups/absence-`date +20\%y\%m\%d\%H\%M`.sql
 /usr/bin/mysqldump -uroot  automation -R -e --triggers --single-transaction > /var/scheduled/backups/automation-`date +20\%y\%m\%d\%H\%M`.sql
 /usr/bin/mysqldump -uroot  cupprint_api -R -e --triggers --single-transaction > /var/scheduled/backups/cupprint_api-`date +20\%y\%m\%d\%H\%M`.sql
 /usr/bin/mysqldump -uroot  cupprint_com -R -e --triggers --single-transaction > /var/scheduled/backups/cupprint_com-`date +20\%y\%m\%d\%H\%M`.sql
